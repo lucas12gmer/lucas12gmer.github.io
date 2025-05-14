@@ -41,7 +41,6 @@ h1 {
     background: linear-gradient(to right, #ffba08, #ff3d00, #23a6d5, #e73c7e);
     -webkit-background-clip: text;
     color: transparent;
-    animation: textGlow 3s infinite alternate;
 }
 
 
