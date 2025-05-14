@@ -16,55 +16,51 @@ body {
     animation: gradient 20s ease infinite;
 }
 
-/* Farbwechsel Animation */
 @keyframes gradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
-/* Große, elegante Box für Server-Infos */
+/* Große, stylische Box */
 .container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    padding: 60px; /* Noch größer für einen edlen Look */
+    padding: 60px;
     border-radius: 25px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
     text-align: center;
     width: 70%;
 }
 
-/* Stylische Schrift ohne übertriebenen Glow */
-h1 {
-    font-size: 50px;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5); /* Sanfter Glow */
-}
-
-/* IP-Adresse schön groß */
-p {
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
-}
-/* IP-Adresse & Server-Status mit Hover-Effekt */
-p strong {
-    font-size: 30px;
+/* IP-Adresse größer */
+.server-ip {
+    font-size: 40px;
     font-weight: bold;
     color: #ffffff;
     transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 
-p strong:hover {
-    transform: scale(1.1); /* Smooth größer werden */
-    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7); /* Glow-Effekt */
+.server-ip:hover {
+    transform: scale(1.1);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
 }
 
-/* Status-Anzeige */
-.status {
-    font-size: 28px;
-    font-weight: bold;
+/* Discord-Button */
+.discord-btn {
+    display: inline-block;
     margin-top: 20px;
-    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #5865F2;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.discord-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(88, 101, 242, 0.8);
 }
