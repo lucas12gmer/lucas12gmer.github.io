@@ -33,13 +33,13 @@ body {
     width: 70%;
 }
 
-/* Minecraft Helden mit Farbverlauf */
+/* Minecraft Helden mit echtem Farbverlauf */
 h1 {
     font-size: 50px;
     font-weight: bold;
     background: linear-gradient(to right, #ffba08, #ff3d00, #23a6d5, #e73c7e);
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 /* IP-Anzeige größer & schöner */
@@ -53,6 +53,14 @@ h1 {
 .server-ip:hover {
     transform: scale(1.1);
     text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+}
+
+/* Server-Status größer */
+.status {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
 }
 
 /* Deutscher Discord-Button */
