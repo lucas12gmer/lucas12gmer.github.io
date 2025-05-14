@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    background: linear-gradient(45deg, #1f4037, #99f2c8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.status {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
