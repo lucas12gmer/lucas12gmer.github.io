@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Minecraft Helden Server</h1>
-        <p class="server-ip"><strong>minecrafthelden.g-portal.game</strong></p>
+        <h1>Minecraft Helden</h1>
+        <p class="server-ip"><strong>IP: minecrafthelden.g-portal.game</strong></p>
         <p class="status">⏳ Prüfe Server-Status...</p>
-        <a href="https://discord.gg/deinserver" class="discord-btn">🎮 Join our Discord</a>
+        <a href="https://discord.gg/deinserver" class="discord-btn">🔗 Trete unserem Discord bei</a>
     </div>
 
     <script>
@@ -21,9 +21,9 @@
             const statusElement = document.querySelector('.status');
 
             if (data.online) {
-                statusElement.innerHTML = `✅ Server ist online! Spieler: ${data.players.online}`;
+                statusElement.innerHTML = `✅ **Server ist online**! Spieler: ${data.players.online}`;
             } else {
-                statusElement.innerHTML = "❌ Server ist offline!";
+                statusElement.innerHTML = "❌ **Server ist offline**!";
             }
         }
 
@@ -31,4 +31,3 @@
     </script>
 </body>
 </html>
-
