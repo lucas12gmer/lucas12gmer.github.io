@@ -16,7 +16,7 @@ body {
     animation: gradient 15s ease infinite;
 }
 
-/* Animation für die Farbverschiebung */
+/* Animation für die Farbverschiebung (sollte gehen) */
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
