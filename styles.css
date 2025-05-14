@@ -37,7 +37,7 @@ body {
 h1 {
     font-size: 50px;
     font-weight: bold;
-    background: linear-gradient(to right, #ffba08, #ff3d00, #23a6d5, #e73c7e);
+    background: linear-gradient(to right, #ff0000, #ff6600, #ffcc00, #00cc66, #0066ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -55,12 +55,12 @@ h1 {
     text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
 }
 
-/* Server-Status größer */
+/* Server-Status größer & in Rot */
 .status {
     font-size: 32px;
     font-weight: bold;
     margin-top: 20px;
-    color: #fff;
+    color: #ff0000;
 }
 
 /* Deutscher Discord-Button */
