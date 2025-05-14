@@ -9,32 +9,51 @@ html, body {
     align-items: center;
 }
 
-/* Sanfte, fließende Farbverläufe */
+/* Sanfte animierte Farbverschiebung */
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ffba08, #ff3d00);
+    background-size: 500% 500%;
+    animation: gradient 20s ease infinite;
 }
 
-/* Animation für die Farbverschiebung (sollte gehen) */
+/* Farbwechsel Animation */
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
-/* Glas-Effekt für die Server-Anzeige */
+/* Glas-Optik für die Server-Anzeige */
 .container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 50px; /* Größer für mehr Eleganz */
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
     text-align: center;
+    width: 60%;
+}
+
+/* Stylische Schrift mit Farbverlauf */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffba08, #ff3d00, #23a6d5, #e73c7e);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: textGlow 3s infinite alternate;
+}
+
+/* Animation für den Schriftglow */
+@keyframes textGlow {
+    0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+    100% { text-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+}
+
+/* Status-Anzeige */
+.status {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
 }
