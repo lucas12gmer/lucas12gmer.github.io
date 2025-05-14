@@ -48,6 +48,18 @@ p {
     font-weight: bold;
     color: #ffffff;
 }
+/* IP-Adresse & Server-Status mit Hover-Effekt */
+p strong {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+p strong:hover {
+    transform: scale(1.1); /* Smooth größer werden */
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7); /* Glow-Effekt */
+}
 
 /* Status-Anzeige */
 .status {
