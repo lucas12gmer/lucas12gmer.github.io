@@ -21,9 +21,9 @@
             const statusElement = document.querySelector('.status');
 
             if (data.online) {
-                statusElement.innerHTML = `✅ **Server ist online**! Spieler: ${data.players.online}`;
+                statusElement.innerHTML = `<span style="color: #00ff00; font-size: 34px;">✅ <strong>Server ist online!</strong></span><br><span style="font-size: 30px;">Spieler: ${data.players.online}</span>`;
             } else {
-                statusElement.innerHTML = "❌ **Server ist offline**!";
+                statusElement.innerHTML = `<span style="color: #ff0000; font-size: 34px;">❌ <strong>Server ist offline!</strong></span>`;
             }
         }
 
