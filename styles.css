@@ -23,30 +23,35 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-/* Glas-Optik für die Server-Anzeige */
+/* Große, elegante Box für Server-Infos */
 .container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    padding: 50px; /* Größer für mehr Eleganz */
-    border-radius: 20px;
+    padding: 60px; /* Noch größer für einen edlen Look */
+    border-radius: 25px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
     text-align: center;
-    width: 60%;
+    width: 70%;
 }
 
-/* Stylische Schrift mit Farbverlauf */
+/* Stylische Schrift ohne übertriebenen Glow */
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-    background: linear-gradient(to right, #ffba08, #ff3d00, #23a6d5, #e73c7e);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5); /* Sanfter Glow */
 }
 
+/* IP-Adresse schön groß */
+p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
 
 /* Status-Anzeige */
 .status {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
     margin-top: 20px;
     color: #fff;
