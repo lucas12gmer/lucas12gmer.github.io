@@ -9,7 +9,6 @@ html, body {
     align-items: center;
 }
 
-/* Sanfter animierter Farbverlauf */
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ffba08, #ff3d00);
     background-size: 500% 500%;
@@ -22,7 +21,6 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-/* Große, stylische Box */
 .container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -33,7 +31,6 @@ body {
     width: 70%;
 }
 
-/* Minecraft Helden mit echtem Farbverlauf */
 h1 {
     font-size: 50px;
     font-weight: bold;
@@ -42,7 +39,6 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-/* IP-Anzeige größer & schöner */
 .server-ip {
     font-size: 40px;
     font-weight: bold;
@@ -55,7 +51,6 @@ h1 {
     text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
 }
 
-/* Server-Status größer & in Rot */
 .status {
     font-size: 32px;
     font-weight: bold;
@@ -63,7 +58,6 @@ h1 {
     color: #ff0000;
 }
 
-/* Deutscher Discord-Button */
 .discord-btn {
     display: inline-block;
     margin-top: 20px;
